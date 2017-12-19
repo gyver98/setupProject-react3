@@ -1,0 +1,33 @@
+
+// Colours
+$greyish: rgb(39, 39, 39);
+$white: #ffffff;
+$yellow: #9bf804;
+
+// Main Styles
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: $white;
+    background-color: $greyish;
+    display: flex;
+    height: 95vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 6rem;
+    letter-spacing: -0.4rem;
+    caret-color: $yellow;
+    &:focus {
+        outline: none;
+    }
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
